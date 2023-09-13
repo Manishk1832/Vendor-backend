@@ -1,6 +1,6 @@
 const mongoose = require ("mongoose");
 const VendorBillSchema = new mongoose.Schema({
-    vendorName : String,
+    vendorName :  String,
     billNo : String,
     amount : Number,
     tax : Number,
